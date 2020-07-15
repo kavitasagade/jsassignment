@@ -1,0 +1,46 @@
+
+<head>
+<title>var and const</title>
+</head>
+<body>
+<h2>var and const</h2>
+<br>
+<div class="container" style='max-width:80%'; margin:auto;font-family:Italic';>
+<p>Main difference is scoping rules.Variables declared by 'VAR' keyword are scoped to immediate function body.while 'LET' variables are scoped to immediate enclosing block denoted by {}.</p>
+</div>
+<script>
+var name = "Kavita";
+console.log(typeof(name));
+var age = 21;
+console.log(typeof(age));
+var bool= false;
+console.log(typeof(bool));
+var languages = ["Hindi","English"];
+console.log(typeof(languages));
+var status= {
+language_name:"Javascript",ide_name="vs code",extension:"ES6 code snipets"
+};
+console.log(typeof(status));
+var a;
+console.log(typeof(a));
+console.log("printing value of a:",a);
+//let
+{
+let city;
+let name ="Kavita";
+console.log("using let:",name);
+name="Kavita sagade";
+console.log("changing the (let)name in block scope:",name);
+}
+console.log('Printing name outside the block:',name);
+const country="India";
+console.log(country);
+
+const subjects=["maths","English"];
+console.log(subjects);
+subjects.push("Physics");
+console.log(subjects);
+</script>
+</body>
+</html>
+

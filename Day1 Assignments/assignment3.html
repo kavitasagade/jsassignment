@@ -1,0 +1,56 @@
+<html>
+<head>
+</head>
+<body>
+<div class="container" style='max-width:90%; margin:auto;font-family:Lucida Sans;'>
+<h1>Datatypes in JS</h1>
+<h2>Javascript types are dynamic</h2>
+<h3>1. Javascript Strings</h3>
+<p><b>A string(text) is a series of characters like name,age,etc.<br>strings are written with double or single quotes.</b></p>
+<h3>2. Javascript Numbers</h3>
+<p><b>Javascript has only one type of numbers.<br>numbers canbe written with or without decimals:</b></p>
+<h3>3. Javascript Booleans</h3>
+<p><b>Boolean can only have two values:true or false.<br>Booleans are used foe conditions.</b><p>
+<h3>4. Javascript Arrays</h3>
+<p><b>Javascript arrays are written with square brackets.<br>Array items are seperated by commas.Array indexes are zero-based,which means the first item is[0],second is[1] and so on.</b></p>
+<h3>5. Javascript objects</h3>
+<p><b>Javascript objects are written with curly braces {}.<br>object propertiesare as name:value pairs seperated by commas.<br>eg var person={Name:"xyz",age:23,gender:"Female"};<br>The object person has 3 properties as name,age and gender</b></p>
+<h3>6. Javascript Undefined</h3>
+<p><b>In javascript,a variable without a value has a value undefined.Thetype is also undefined.<b>Any variabl,by settingthe value to undefined.the type will alsobe undefined.</b></p>
+<h3>7. Javascript Null</h3>
+<p><b>In javascript null is nothing.It is supposed to be something that does not exist.<br>The datatype of null is an object.<br>consider it is a bug in javascript that typeof null is an object.It should be null.</b></p>
+</div>
+<script>
+var name="Kavita";
+console.log(typeof(name));
+
+var age = 23;
+console.log(typeof(age));
+
+var bool = true;
+console.log(typeof(bool));
+
+var languages =["Hindi","English"];
+console.log(typeof(languages));
+
+var status={
+Lang_name:"Javascript";
+ide_name:"vs code";
+
+}
+console.log(typeof(status));
+
+var a;
+console.log(typeof(a));
+
+var a=null;
+console.log('printing value of a:',a);
+console.log('datatype of a set to null:',typeof(a));
+
+</script>
+</body>
+</html> 
+
+
+</body>
+</html>
