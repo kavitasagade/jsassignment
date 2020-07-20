@@ -3,11 +3,11 @@
     let comm;
     switch(true) {
         case sales >=0 && sales <5001:
-            comm = sales *0.2;
+            comm = sales *0.02;
             console.log(comm);
             break;
             case sales >=5001 && sales <10001:
-            comm = 5000 *0.2 + (sales - 5000) * 0.05;
+            comm = 5000 *0.02 + (sales - 5000) * 0.05;
             console.log(comm);
             break;
             case sales >=10001 && sales <20001:
