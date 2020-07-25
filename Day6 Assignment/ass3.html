@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Assignment 3 day6</title>
+        <h2>make a webpage that will ask name of the  user.then display welcome on webpage.also webpage should aslso have a clock.Using the toggle method.classlist add a dark mode feature to website</h2>
+
+    </head>
+    <body>
+        <p>Time: <spam id="datetime"></spam></p>
+        <button id="dark">switch to dark mode</button>
+        <script>
+            let a=prompt("Enter the name of user...");
+            document.write("welcome...");
+            var dt=new Date();
+            document.getElementById("datetime").innerHTML=dt.toLocaleTimeString();
+            const dmode=document.getElementById('dark');
+            dmode.onclick=function changeColor() {
+                document.body.style.backgroundColor='black';
+                document.body.style.color='white';
+                document.body.style.fontfamily='helvetica';
+            }
+        </script>
+        </body>
+        </html>
